@@ -2,7 +2,7 @@ package Sledge::Plugin::ShowText;
 use strict;
 use warnings;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub import {
     my $class = shift;
@@ -44,17 +44,17 @@ Sledge::Plugin::ShowText - plugin to show text from data
       my $self  = shift;
       my $id    = $self->r->param('id');
       my $text = Your::Data->retrieve($id)->text;
-      $self->show_text($text);
+      return $self->show_text($text);
   }
 
   sub dispatch_bar {
       my $self  = shift;
 
       if (.....) {
-          $self->show_text('ok');
+          return $self->show_text('ok');
       }
       else {
-          $self->show_text('ng');
+          return $self->show_text('ng');
       }
   }
 
