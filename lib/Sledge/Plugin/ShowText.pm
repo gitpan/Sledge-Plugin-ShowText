@@ -2,7 +2,7 @@ package Sledge::Plugin::ShowText;
 use strict;
 use warnings;
 use vars qw($VERSION);
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub import {
     my $class = shift;
@@ -64,7 +64,7 @@ Sledge::Plugin::ShowText is show text Plugin for Sledge. You can easy to generat
 
 =head1 AUTHOR
 
-KIMURA, takefumi E<lt>takefumi@mobilefactory.jp<gt>
+KIMURA, takefumi E<lt>takefumi@mobilefactory.jpE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

@@ -29,7 +29,7 @@ DESCRIPTION
     generate plain text.
 
 AUTHOR
-    KIMURA, takefumi <takefumi@mobilefactory.jp<gt>
+    KIMURA, takefumi <takefumi@mobilefactory.jp>
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
